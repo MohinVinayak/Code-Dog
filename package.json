@@ -127,11 +127,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/code-dog.git"
+    "url": "https://github.com/MohinVinayak/Code-Dog.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/code-dog/issues"
+    "url": "https://github.com/MohinVinayak/Code-Dog/issues"
   },
-  "homepage": "https://github.com/yourusername/code-dog#readme",
+  "homepage": "https://github.com/MohinVinayak/Code-Dog#readme",
   "license": "MIT"
 }
