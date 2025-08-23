@@ -3,7 +3,7 @@
   "displayName": "Code Dog",
   "description": "A virtual pet dog that responds to your coding activities with adorable animations",
   "version": "0.0.1",
-  "publisher": "you",
+  "publisher": "MohinVinayak",
   "engines": { 
     "vscode": "^1.80.0" 
   },
