@@ -1,0 +1,137 @@
+{
+  "name": "code-dog",
+  "displayName": "Code Dog",
+  "description": "A virtual pet dog that responds to your coding activities with adorable animations",
+  "version": "0.0.1",
+  "publisher": "you",
+  "engines": { 
+    "vscode": "^1.80.0" 
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:codedog.start"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "codedog.start",
+        "title": "Start Code Dog",
+        "category": "Code Dog",
+        "icon": "🐶"
+      },
+      {
+        "command": "codedog.testRun",
+        "title": "Test Run Animation",
+        "category": "Code Dog"
+      },
+      {
+        "command": "codedog.testBite",
+        "title": "Test Bite Animation",
+        "category": "Code Dog"
+      },
+      {
+        "command": "codedog.resetPosition",
+        "title": "Reset Dog Position",
+        "category": "Code Dog"
+      }
+    ],
+    "configuration": {
+      "title": "Code Dog",
+      "properties": {
+        "codedog.size": {
+          "type": "number",
+          "default": 120,
+          "minimum": 50,
+          "maximum": 300,
+          "description": "Size of the dog (height in pixels)"
+        },
+        "codedog.idleTimeout": {
+          "type": "number",
+          "default": 10000,
+          "minimum": 5000,
+          "maximum": 60000,
+          "description": "Time in milliseconds before dog goes idle"
+        },
+        "codedog.enableBark": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable barking on code diagnostics (errors/warnings)"
+        },
+        "codedog.barkDelay": {
+          "type": "number",
+          "default": 5000,
+          "minimum": 1000,
+          "maximum": 15000,
+          "description": "Delay in milliseconds before barking at diagnostics"
+        },
+        "codedog.deathCooldown": {
+          "type": "number",
+          "default": 5000,
+          "minimum": 2000,
+          "maximum": 15000,
+          "description": "How long the dog stays 'dead' after failures (milliseconds)"
+        }
+      }
+    },
+    "menus": {
+      "commandPalette": [
+        {
+          "command": "codedog.start",
+          "when": "true"
+        },
+        {
+          "command": "codedog.testRun",
+          "when": "true"
+        },
+        {
+          "command": "codedog.testBite",
+          "when": "true"
+        },
+        {
+          "command": "codedog.resetPosition",
+          "when": "true"
+        }
+      ]
+    },
+    "keybindings": [
+      {
+        "command": "codedog.start",
+        "key": "ctrl+shift+d",
+        "mac": "cmd+shift+d",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p .",
+    "watch": "tsc -w -p .",
+    "vscode:prepublish": "npm run compile",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.0",
+    "@types/vscode": "^1.80.0"
+  },
+  "keywords": [
+    "pet",
+    "animation",
+    "fun",
+    "productivity",
+    "companion",
+    "dog",
+    "mascot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/code-dog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/code-dog/issues"
+  },
+  "homepage": "https://github.com/yourusername/code-dog#readme",
+  "license": "MIT"
+}
