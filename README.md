@@ -9,7 +9,9 @@ A delightful VS Code extension that adds an animated pixel-art dog companion to 
 <p align="center">
   <img src="assets/CodeDogAnimation.gif" alt="Code Dog in action" width="600"/>
 </p>
-
+<p align="center">
+  <img src="assets/CodeDogAnimation2.gif" alt="Code Dog in action" width="600"/>
+</p>
 ##  Features
 
 ###  Smart Animations
