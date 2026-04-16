@@ -1,4 +1,4 @@
-# Code Dog 🐕
+# Code Dog 
 
 A delightful VS Code extension that adds an animated pixel-art dog companion to your sidebar. Watch your coding buddy react to everything you do!
 
@@ -6,9 +6,13 @@ A delightful VS Code extension that adds an animated pixel-art dog companion to 
 [![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/MohinVinayak.code-dog)](https://marketplace.visualstudio.com/items?itemName=MohinVinayak.code-dog)
 [![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/MohinVinayak.code-dog)](https://marketplace.visualstudio.com/items?itemName=MohinVinayak.code-dog)
 
-## ✨ Features
+<p align="center">
+  <img src="assets/CodeDogAnimation.gif" alt="Code Dog in action" width="600"/>
+</p>
 
-### 🎬 Smart Animations
+##  Features
+
+###  Smart Animations
 
 Your dog responds naturally to your coding workflow:
 
@@ -20,13 +24,13 @@ Your dog responds naturally to your coding workflow:
 - **😴 Idle Blink** - Peaceful breathing when you take a break
 - **💀 Death** - Dramatic reaction to failed builds (but recovers quickly!)
 
-### 🎮 Interactive Features
+###  Interactive Features
 
 - **Click to Bark** - Click on your dog to make it bark! (2-second cooldown to prevent spam)
 - **Git Integration** - Dog celebrates your commits and tracks branch switches
 - **Always Visible** - Lives in your sidebar, never blocking your code
 
-### ⚙️ Highly Customizable
+###  Highly Customizable
 
 Fine-tune your companion's behavior with these settings:
 
@@ -38,7 +42,7 @@ Fine-tune your companion's behavior with these settings:
 | `codedog.barkDelay` | 5000 | Delay before error bark (ms) |
 | `codedog.deathCooldown` | 5000 | Recovery time after failure (ms) |
 
-## 📦 Installation
+##  Installation
 
 ### From VS Code Marketplace
 
@@ -58,7 +62,7 @@ Fine-tune your companion's behavior with these settings:
 1. Download from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=MohinVinayak.code-dog)
 2. Install the `.vsix` file
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. After installation, click the **dog icon** in the Activity Bar (left sidebar)
 2. Your pixel-art companion will appear!
@@ -66,7 +70,7 @@ Fine-tune your companion's behavior with these settings:
 
 **Quick tip:** Click on the dog to make it bark! 🐕
 
-## 🎮 Commands
+##  Commands
 
 Access these via Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`):
 
@@ -78,7 +82,7 @@ Access these via Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`):
 
 **Keyboard Shortcut:** Press `Ctrl+Alt+D` (or `Cmd+Alt+D` on Mac) to quickly focus Code Dog!
 
-## 🎯 What Triggers What?
+##  What Triggers What?
 
 | Your Action | Dog's Reaction |
 |-------------|----------------|
@@ -90,13 +94,13 @@ Access these via Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`):
 | Task fails | Dies dramatically, then recovers |
 | Error detected | Barks once to alert you |
 | Error fixed | Stops barking, back to normal |
-| Making a commit | Runs in celebration! 🎉 |
+| Making a commit | Runs in celebration!  |
 | Switching branches | Tracks the change |
 | Opening new repo | Sniffs around |
 | Clicking the dog | Barks at you! |
 | Long idle period | Gentle idle blinking |
 
-## 🎨 Customization Examples
+##  Customization Examples
 
 ### Larger Dog
 ```json
@@ -126,7 +130,7 @@ Access these via Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`):
 }
 ```
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Dog not showing?
 - Click the dog icon in the Activity Bar (left sidebar)
@@ -147,44 +151,44 @@ Access these via Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`):
 - Open a git repository in VS Code
 - Check the Output panel for "Code Dog: Git integration enabled"
 
-## 🎭 Performance
+##  Performance
 
 Code Dog is designed to be lightweight:
-- ⚡ Minimal CPU usage (< 1%)
-- 💾 Low memory footprint (< 10MB)
-- 🎯 Smart event handling to avoid performance impact
-- 🖼️ Efficient sprite caching
+-  Minimal CPU usage (< 1%)
+-  Low memory footprint (< 10MB)
+-  Smart event handling to avoid performance impact
+-  Efficient sprite caching
 
-## 🤝 Contributing
+##  Contributing
 
 Found a bug? Have a feature request? 
 
 - Report issues on [GitHub](https://github.com/MohinVinayak/Code-Dog/issues)
 - Star the project if you like it! ⭐
 
-## 📝 Changelog
+##  Changelog
 
 ### [0.0.3] - Latest
-- ✨ Added click interaction - click the dog to make it bark!
-- 🎉 Git integration - celebrates commits and branch switches
-- 🐛 Improved error barking logic (less annoying, more helpful)
-- 🔧 Better idle detection
-- ⌨️ Added keyboard shortcut (Ctrl+Alt+D)
+-  Added click interaction - click the dog to make it bark!
+-  Git integration - celebrates commits and branch switches
+-  Improved error barking logic (less annoying, more helpful)
+-  Better idle detection
+-  Added keyboard shortcut (Ctrl+Alt+D)
 
 ### [0.0.2]
 - Initial marketplace release
 - Basic animations and reactions
 
-## 📄 License
+##  License
 
 MIT © [Mohin Vinayak](https://github.com/MohinVinayak)
 
-## 💖 Enjoy!
+##  Enjoy!
 
 If you enjoy Code Dog, consider:
-- ⭐ Starring the [GitHub repo](https://github.com/MohinVinayak/Code-Dog)
-- ✍️ Leaving a review on the [marketplace](https://marketplace.visualstudio.com/items?itemName=MohinVinayak.code-dog)
-- 🐦 Sharing with friends who code!
+-  Starring the [GitHub repo](https://github.com/MohinVinayak/Code-Dog)
+-  Leaving a review on the [marketplace](https://marketplace.visualstudio.com/items?itemName=MohinVinayak.code-dog)
+-  Sharing with friends who code!
 
 ---
 
