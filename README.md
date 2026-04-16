@@ -4,7 +4,6 @@ A delightful VS Code extension that adds an animated pixel-art dog companion to 
 
 [![Visual Studio Marketplace Version](https://vsmarketplacebadges.dev/version/MohinVinayak.code-dog.svg)](https://marketplace.visualstudio.com/items?itemName=MohinVinayak.code-dog)
 [![Visual Studio Marketplace Downloads](https://vsmarketplacebadges.dev/downloads/MohinVinayak.code-dog.svg)](https://marketplace.visualstudio.com/items?itemName=MohinVinayak.code-dog)
-[![Visual Studio Marketplace Rating](https://vsmarketplacebadges.dev/rating-star/MohinVinayak.code-dog.svg)](https://marketplace.visualstudio.com/items?itemName=MohinVinayak.code-dog)
 
 ## See it in Action!
 <p align="center">
