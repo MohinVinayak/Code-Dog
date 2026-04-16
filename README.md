@@ -2,10 +2,11 @@
 
 A delightful VS Code extension that adds an animated pixel-art dog companion to your sidebar. Watch your coding buddy react to everything you do!
 
-[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/MohinVinayak.code-dog)](https://marketplace.visualstudio.com/items?itemName=MohinVinayak.code-dog)
-[![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/MohinVinayak.code-dog)](https://marketplace.visualstudio.com/items?itemName=MohinVinayak.code-dog)
-[![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/MohinVinayak.code-dog)](https://marketplace.visualstudio.com/items?itemName=MohinVinayak.code-dog)
+[![Visual Studio Marketplace Version](https://img.shields.io/vscode-marketplace/v/MohinVinayak.code-dog)](https://marketplace.visualstudio.com/items?itemName=MohinVinayak.code-dog)
+[![Visual Studio Marketplace Downloads](https://img.shields.io/vscode-marketplace/d/MohinVinayak.code-dog)](https://marketplace.visualstudio.com/items?itemName=MohinVinayak.code-dog)
+[![Visual Studio Marketplace Rating](https://img.shields.io/vscode-marketplace/r/MohinVinayak.code-dog)](https://marketplace.visualstudio.com/items?itemName=MohinVinayak.code-dog)
 
+## See it in Action!
 <p align="center">
   <img src="assets/CodeDogAnimation.gif" alt="Code Dog in action" width="600"/>
 </p>
